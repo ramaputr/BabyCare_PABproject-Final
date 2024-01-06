@@ -1,17 +1,21 @@
-Nama Aplikasi:  
-Nama Kelompok:
+Nama Aplikasi:  BabyCare
+Nama Kelompok:	Seadanya
 Nama Anggota:
-1) Nanang Kurniawan
+1) Ancel Arianto
 2)
 3)
 4)
 
 Job Desc:
 Anggota 1:
- - Melakukan...
- - Membuat...
+ - Membuat semua desain apps
+ - PanduanPerawatan_2 
+ - PanduanPerawatan_3
+ - Fitur 
+ - Kalender2 
+ - Kalender3
 Anggota 2:
  -
  -
 
-Contact Person: Ketua (0858626277275) >>>
+Contact Person: Ketua (082138043463) >>>
