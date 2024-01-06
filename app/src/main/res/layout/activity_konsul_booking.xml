@@ -1,0 +1,259 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundkonsul">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <ImageButton
+            android:id="@+id/backbutton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/bbutton" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="30dp"
+            android:text="Konsul Dokter"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="80dp"
+            android:text="Atur Jadwal Konsulmu"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="220dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/rectanglekonsul">
+
+        <ImageView
+            android:id="@+id/doctorImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dr_melly" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:text="Dr. Melly"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="45dp"
+            android:text="Deskripsi tentang dokter"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="66dp"
+            android:src="@drawable/bintang" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="123dp"
+            android:layout_marginTop="63dp"
+            android:text="5.0"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="67dp"
+            android:src="@drawable/jam" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="173dp"
+            android:layout_marginTop="63dp"
+            android:text="08.00 - 05.00 PM"
+            android:textSize="12sp" />
+
+        <ImageButton
+            android:id="@+id/calendarButton"
+            android:layout_width="300dp"
+            android:layout_height="1000dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/tanggalkonsul"
+            android:text="Pilih Tanggal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
+        android:background="@drawable/rectanglekonsul">
+
+        <ImageButton
+            android:id="@+id/timeButton1"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="onTimeButtonClick"
+            android:src="@drawable/jamsembilankonsul"
+            android:text="09:00 AM - 09:30 AM"
+            android:textSize="9dp" />
+
+        <ImageButton
+            android:id="@+id/timeButton2"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="7dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="onTimeButtonClick"
+            android:src="@drawable/sepuluhkonsul" />
+
+        <ImageButton
+            android:id="@+id/timeButton3"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="onTimeButtonClick"
+            android:src="@drawable/sebelaskonsul" />
+
+        <ImageButton
+            android:id="@+id/timeButton4"
+            android:layout_width="140dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="75dp"
+            android:layout_weight="1"
+            android:backgroundTint="#00FFFFFF"
+            android:onClick="onTimeButtonClick"
+            android:src="@drawable/satukonsul" />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/simpanButton"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/simpan" />
+
+    <ImageButton
+        android:id="@+id/batalButton"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="55dp"
+        android:src="@drawable/batal" />
+
+    <TextView
+        android:id="@+id/calendarResult"
+        android:layout_width="312dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="550dp"
+
+        android:background="@color/white"
+        android:backgroundTint="#FFFFFF" />
+
+    <RelativeLayout
+        android:id="@+id/Navbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="652dp">
+
+        <ImageButton
+            android:id="@+id/imageView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="-5dp"
+            android:backgroundTint="#00FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/nbar" />
+
+        <ImageButton
+            android:id="@+id/imageView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/gome" />
+
+        <ImageButton
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/fitur" />
+
+        <ImageButton
+            android:id="@+id/imageView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/news" />
+
+        <ImageButton
+            android:id="@+id/imageView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="325dp"
+            android:layout_marginTop="18dp"
+            android:backgroundTint="#00FFFFFF"
+            app:srcCompat="@drawable/profile" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
