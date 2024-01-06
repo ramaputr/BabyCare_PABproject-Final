@@ -2,7 +2,7 @@ Nama Aplikasi:  BabyCare
 Nama Kelompok:	Seadanya
 Nama Anggota:
 1) Ancel Arianto
-2)
+2) Muhammad Rama Putra
 3)
 4)
 
@@ -15,7 +15,7 @@ Anggota 1:
  - Kalender2 
  - Kalender3
 Anggota 2:
- -
- -
+ - KonsulDokter_Booking 
+ - News1
 
 Contact Person: Ketua (082138043463) >>>
